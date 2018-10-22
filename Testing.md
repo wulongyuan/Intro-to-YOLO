@@ -87,4 +87,8 @@ There are various versions of YOLO each having their own features such as FPS, F
 9. --saveVideo - tag used to save the output video.
 ```
 
-
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
