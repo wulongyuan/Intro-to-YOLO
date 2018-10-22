@@ -73,7 +73,7 @@ There are various versions of YOLO each having their own features such as FPS, F
 
 3. --model - tag used to specify the model which we are using to detect the objects in the videofile
 
-4 cfg/tiny-yolo.cfg - Indicating to use the downloaded pre-trained model to detect objects in the video.
+4. cfg/tiny-yolo.cfg - Indicating to use the downloaded pre-trained model to detect objects in the video.
 
 5.  --load - tag used to specify the weight values of the the neural network for the trained model.
 
@@ -81,7 +81,7 @@ There are various versions of YOLO each having their own features such as FPS, F
 
 8. --gpu - tag used to specify to use tensorflow gpu version instead of cpu version.
     Note: you can ommite the --gpu if you are using cpu version of tensorflow.
-9. 1.0 indecates to use 100% of gpu to perform object detection using the specified model.
+9. 1.0 - indecates to use 100% of gpu to perform object detection using the specified model.
 
 10 --saveVideo - tag used to save the output video.
 
