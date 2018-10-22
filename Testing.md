@@ -2,6 +2,7 @@
 
 For this tutorial we are going to work on Tiny-Yolo a simple version of YOLO model
 There are various versions of YOLO each having their own features such as FPS, Flops, cfg and weights files.
+
 ![alt text](https://www.arunponnusamy.com/images/yolo-object-detection-opencv-python/yolo-object-detection.jpg)
 
 ## Some of the latest versions include:
