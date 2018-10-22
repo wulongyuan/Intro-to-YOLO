@@ -6,7 +6,7 @@ There are various versions of YOLO each having their own features such as FPS, F
 ## Some of the latest versions include:
 
 | Model	           | Train	        | Test	    | mAP	    | FLOPS	    | FPS	|  
---------------------------------------------------------------------------------- 
+|------------------|----------------|-----------|-----------|-----------|-------| 
 | SSD300	       | COCO trainval  | test-dev	| 41.2	    | -	        |  46	|    
 | SSD500	       | COCO trainval	| test-dev	| 46.5	    | -	        |  19	|   
 | YOLOv2 608x608   | COCO trainval	| test-dev	| 48.1	    | 62.94 Bn	|  40	|    
@@ -87,8 +87,3 @@ There are various versions of YOLO each having their own features such as FPS, F
 9. --saveVideo - tag used to save the output video.
 ```
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
