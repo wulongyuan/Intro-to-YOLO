@@ -66,7 +66,7 @@ There are various versions of YOLO each having their own features such as FPS, F
 ```
 
 ## Code breakdown
-
+```
 1. Python - Indicates to use Python packages.
 
 2. flow - Initiate the dark-flow files
@@ -85,6 +85,6 @@ There are various versions of YOLO each having their own features such as FPS, F
 8. 1.0 - indecates to use 100% of gpu to perform object detection using the specified model.
 
 9. --saveVideo - tag used to save the output video.
-
+```
 
 
