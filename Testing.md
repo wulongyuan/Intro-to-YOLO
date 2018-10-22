@@ -81,6 +81,7 @@ There are various versions of YOLO each having their own features such as FPS, F
 
 8. --gpu - tag used to specify to use tensorflow gpu version instead of cpu version.
     Note: you can ommite the --gpu if you are using cpu version of tensorflow.
+ 
 9. 1.0 - indecates to use 100% of gpu to perform object detection using the specified model.
 
 10 --saveVideo - tag used to save the output video.
