@@ -8,14 +8,14 @@ Welcome to the world of object detection!
 YOLO is like a hello world program for object detection using Deep learning.
 YOLO stands for "You Look only once". It is a real time object detection model.
 
-Original paper: [YOLO](https://arxiv.org/pdf/1506.02640v5.pdf).
-                [YOLOv2](https://arxiv.org/pdf/1612.08242v1.pdf).
+**Original paper:** [YOLO](https://arxiv.org/pdf/1506.02640v5.pdf).
+                    [YOLOv2](https://arxiv.org/pdf/1612.08242v1.pdf).
 
-Check Mark jay tutorials for good understanding and working of Yolo.
+Check Mark jay's awesome tutorials for good understanding and working of Yolo.
 
-Mark jay [GitHub](https://github.com/markjay4k/YOLO-series)
+**Mark jay [GitHub](https://github.com/markjay4k/YOLO-series).
 
-Mark jay [Youtube](https://www.youtube.com/watch?v=PyjBd7IDYZs)
+**Mark jay [Youtube](https://www.youtube.com/watch?v=PyjBd7IDYZs).
 
 ## Features         
 
