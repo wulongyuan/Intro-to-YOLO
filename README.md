@@ -13,9 +13,9 @@ YOLO stands for "You Look only once". It is a real time object detection model.
 
 Check Mark jay's awesome tutorials for good understanding and working of Yolo.
 
-**Mark jay [GitHub](https://github.com/markjay4k/YOLO-series).
+**Mark jay** [GitHub](https://github.com/markjay4k/YOLO-series).
 
-**Mark jay [Youtube](https://www.youtube.com/watch?v=PyjBd7IDYZs).
+**Mark jay** [Youtube](https://www.youtube.com/watch?v=PyjBd7IDYZs).
 
 ## Features         
 
