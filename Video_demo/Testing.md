@@ -66,6 +66,11 @@ There are various versions of YOLO each having their own features such as FPS, F
 ```
     - python flow --model cfg/tiny-yolo.cfg --load bin/yolov3.weights --demo videofile.mp4 --gpu 1.0 --saveVideo
 ```
+    Executing the above command assumes you have installed tensorflow, If you have installed the cpu version of tensorflow
+    ommite the gpu tag.
+```
+    - python flow --model cfg/tiny-yolo.cfg --load bin/yolov3.weights --demo videofile.mp4 --saveVideo
+```
 
 ## Code breakdown
 ```
