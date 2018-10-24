@@ -91,6 +91,8 @@ There are various versions of YOLO each having their own features such as FPS, F
  
 8. 1.0 - indecates to use 100% of gpu to perform object detection using the specified model.
 
-9. --saveVideo - tag used to save the output video.
+9. The video file on which the model is used to predict the objects in the video is the videofile.mp4 
+
+10 . --saveVideo - tag used to save the output video.
 ```
 
