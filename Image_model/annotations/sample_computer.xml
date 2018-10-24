@@ -1,0 +1,26 @@
+<annotation>
+	<folder>out</folder>
+	<filename>sample_computer.jpg</filename>
+	<path>C:\Users\santo\Downloads\Dark\darkflow-master\sample_img\out\sample_computer.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>375</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>computer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>95</xmin>
+			<ymin>59</ymin>
+			<xmax>432</xmax>
+			<ymax>361</ymax>
+		</bndbox>
+	</object>
+</annotation>

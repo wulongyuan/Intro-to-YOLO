@@ -1,0 +1,26 @@
+<annotation>
+	<folder>out</folder>
+	<filename>sample_giraffe.jpg</filename>
+	<path>C:\Users\santo\Downloads\Dark\darkflow-master\sample_img\out\sample_giraffe.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Giraf</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>121</xmin>
+			<ymin>23</ymin>
+			<xmax>450</xmax>
+			<ymax>466</ymax>
+		</bndbox>
+	</object>
+</annotation>
