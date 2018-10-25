@@ -1,6 +1,6 @@
 # Custom Object Detection
 
-There are various flavours of YOLO, each having it's own advantages.
+There are various flavors of YOLO, each having its own advantages.
 
 **Yolo trained with PascalVoc is trained to detect 20 objects**
 
@@ -8,15 +8,16 @@ There are various flavours of YOLO, each having it's own advantages.
 
 **Yolo 9000 is trained to detect over 9000 objects!!**
 
-You can retrain the models to detect additional models, but you need lots of computational power to retrain these objects because they have deeper network layers.
-So if you need to train a custom object then it is adviced to select the tiny-yolo model as it has few layers compared to others and is the easiest to train with minimal hardware configuration (No need of GPU, CPU is sufficient).
+You can re-train these models to detect additional objects, but you need lots of computational power to retrain these objects because they have deeper network layers.
+So if you need to train a custom object then it is advised to select the tiny-yolo model as it has few layers compared to others and is the easiest to train with minimal hardware configuration (No need of GPU, CPU is sufficient).
+
 
 ## 1. Download a new model to train
 
 ### Tiny-YOLO
 
-The version we are going to use is the tiny-yolo-voc.cfg
-you can download the cfg file [here](https://github.com/opencv/opencv_extra/blob/master/testdata/dnn/tiny-yolo-voc.cfg).
+We are going to use tiny-yolo-voc.cfg for this exercise.
+You can download the cfg file [here](https://github.com/opencv/opencv_extra/blob/master/testdata/dnn/tiny-yolo-voc.cfg).
 You can download the weights file [here](https://github.com/leetenki/YOLOtiny_v2_chainer/blob/master/tiny-yolo-voc.weights).
 
 Once you have the files 
@@ -26,9 +27,9 @@ Place the weights file in the darkflow/bin folder.
 
 ## 2. Download the Images to train
 
-For this exercise we are going train the model to detect Coke bottels and cans.
-- So, next step is to collect images in bulk.
-- Easiest way of doing this is downlod a google chrome plugin called "Download All Images".
+For this exercise we are going train the model to detect Coke bottles and cans.
+- So, the next step is to collect images in bulk.
+- Easiest way of doing this is to download a google chrome's plugin called "Download All Images".
 - Now google images for coke, click on images tab if not there already.
 - Scroll down to load about 500 images
 - Now click on the zip icon in the top right corner of chrome to download a zip file of all the image downloaded.
@@ -40,24 +41,24 @@ For this exercise we are going train the model to detect Coke bottels and cans.
 ## 3. Annotate the images.
 
 This is the most time consuming step of all, we need to annotate each image and generate a xml file which is used to train the model.
-There are many ways to annotate images and generate an xml file, but the easiest way I fould was using a tool called
-        
-        LabelImg you can download it [here](https://tzutalin.github.io/labelImg/).
-        
+There are many ways to annotate images and generate an xml file, but the easiest way I found was using a tool called "LabelImg"
+```
+        You can download it [here](https://tzutalin.github.io/labelImg/).
+```     
 ### LabelImg
 
 ```
-1. Once you have download the file extract the file and run LabelImg.exercise
+1. Once you have downloaded the file extract the file and run LabelImg.exe
 2. Click on open Dir to select the folder with images, and browse the folder image_files
-3. Click on output Dir to selet the path for the output xml files generated, and browse to the annotation folder.
+3. Click on output Dir to select the path for the output xml files generated, and browse to the annotation folder.
 4. Click on Create rect box and draw a box around the coke bottle or the can displayed in the image and click save.
-5. If there are multiple coke bottels or cans make sure to draw a rectangle box around all of them.
+5. If there are multiple coke bottles or cans make sure to draw a rectangle box around all of them.
 6. Click save to generate/save the xml file.
 7. Click on next to continue to the next image.
-8. Annotate atleast 500 images to get good accuracy for detecting the object in a image or a video.
+8. Annotate at least 500 images to get good accuracy for detecting the object in an image or a video.
 ```
 ![Screenshot](Untitled.png)
-## Setting up training environment
+## Setting up the training environment
 
 ```
 1. Go to bin folder make sure the tiny-yolo-voc.weights file is present.
@@ -75,7 +76,7 @@ There are many ways to annotate images and generate an xml file, but the easiest
 ```
 
 ## Start the training
-Open command prompt and execute the following command
+Open command prompt in the darkflow directory and execute the following command
 
 ```
 Python flow --model cfg/tiny-yolo-voc-1c.cfg --load bin/tiny-yolo-voc.weights --train --annotation annotation --dataset image_files --gpu 1.0 --epoch 500.
