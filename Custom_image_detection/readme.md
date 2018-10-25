@@ -56,7 +56,7 @@ There are many ways to annotate images and generate an xml file, but the easiest
 7. Click on next to continue to the next image.
 8. Annotate atleast 500 images to get good accuracy for detecting the object in a image or a video.
 ```
-![Alt text](https://drive.google.com/open?id=1btryA1MRcWX6yWJmO3RrdiZk6xRswmHV)
+![Screenshot](Untitled.png)
 ## Setting up training environment
 
 ```
