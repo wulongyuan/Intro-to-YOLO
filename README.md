@@ -6,7 +6,7 @@ Introduction to objection detection using YOLO
 Welcome to the world of object detection!
 
 YOLO is like a hello world program for object detection using Deep learning.
-YOLO stands for "You Look only once". It is a real time object detection model.
+YOLO stands for "You only look once". It is a real time object detection model.
 
 **Original paper:** [YOLO](https://arxiv.org/pdf/1506.02640v5.pdf).
                     [YOLOv2](https://arxiv.org/pdf/1612.08242v1.pdf).
