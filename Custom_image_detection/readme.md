@@ -8,8 +8,8 @@ There are various flavours of YOLO, each having it's own advantages.
 
 **Yolo 9000 is trained to detect over 9000 objects!!**
 
-You can retrain the models to detect additional models, but you need lots of computational power to retrain these objects.
-So if you need to train a custom object then it is adviced to select the tiny-yolo model.
+You can retrain the models to detect additional models, but you need lots of computational power to retrain these objects because they have deeper network layers.
+So if you need to train a custom object then it is adviced to select the tiny-yolo model as it has few layers compared to others and is the easiest to train with minimal hardware configuration (No need of GPU, CPU is sufficient).
 
 ## 1. Download a new model to train
 
