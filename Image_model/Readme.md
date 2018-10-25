@@ -18,3 +18,13 @@ This converts all the file names of the files in the folder dark-master/sample_i
 - ....
 - Image_n
 ```
+
+The above step is just to organize the images for simpler access for the python script
+You can skip the above steps and just update the image_detection.py file by adding few lines of code
+```
+import os
+image_files=os.filedir("path_of_images")   #Now image_files contalins a list of all the files in the folder
+for image in image_files:
+    image_path="path_of_images/"+i
+```
+
