@@ -23,14 +23,11 @@ for i in file_names:
         print(results)
         for color, result in zip(colors, results):
             print(result['label'],"{:.2f}".format(result['confidence']*100))
-            if(result['confidence']<0.1):
-                continue
-            else:
-                tl = (result['topleft']['x'], result['topleft']['y'])
-                br = (result['bottomright']['x'], result['bottomright']['y'])
-                label = result['label']
-                img = cv2.rectangle(img, tl, br, color, 7)
-                img = cv2.putText(img, label, tl, cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 0), 2)
+            tl = (result['topleft']['x'], result['topleft']['y'])
+            br = (result['bottomright']['x'], result['bottomright']['y'])
+            label = result['label']
+            img = cv2.rectangle(img, tl, br, color, 7)
+            img = cv2.putText(img, label, tl, cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 0), 2)
         plt.imshow(img)
         plt.show()
         print('----------------------------------')
