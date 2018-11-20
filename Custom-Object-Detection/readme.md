@@ -106,7 +106,7 @@ Some of the best tools I have found so far
 
 To train a Neural network we need a lot of hardware power, we need good GPU like 1070 Ti or K80's for training faster or it can take hours.
 
-### Google Colla
+### Google Collab
 
 Google always has a solution!
 
