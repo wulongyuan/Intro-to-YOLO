@@ -139,6 +139,28 @@ Next follow the steps here. [https://github.com/santoshmn26/Intro-to-YOLO/blob/m
 
 Execute the commands one by one.
 
+After about 100 epoch if the moving avg loss is less than 5% stop the execution    
+
+go to ckpt folder download the latest files
+```
+1. .meta
+2. .index
+3. .profile
+4. .data
+5. checkpoing
+```
+
+### Testing the model
+
+Now place the downloaded files in darkflow/ckpt folder
+
+Note: Create the ckpt folder if not present already
+
+Now run the main.py file in the darkflow folder using command prompt
+
+```
+python main.py
+```
 
 
 
