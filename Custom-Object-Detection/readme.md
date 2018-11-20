@@ -147,7 +147,7 @@ go to ckpt folder download the latest files
 2. .index
 3. .profile
 4. .data
-5. checkpoing
+5. checkpoint
 ```
 
 ### Testing the model
