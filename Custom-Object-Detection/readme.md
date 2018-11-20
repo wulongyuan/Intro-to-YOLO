@@ -9,6 +9,8 @@ Similar approach can be used to detects people wearing helemts for bike riders o
 
 ## Lets GO!
 
+![alt text](https://github.com/santoshmn26/Intro-to-YOLO/blob/master/Custom-Object-Detection/github.gif)
+
 ## Step 1:
 
 Create a new folder, open the new folder, now hold shift and then right click and select open command window here to open the cmd in current path and execute the following commands.
