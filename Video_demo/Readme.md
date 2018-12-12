@@ -28,6 +28,10 @@ There are various versions of YOLO each having their own features such as FPS, F
 | YOLOv3-tiny	   |COCO trainval	| test-dev	| 33.1	    | 5.56 Bn   |  220	|
 | YOLOv3-spp	   |COCO trainval	| test-dev	| 60.6	    | 141.45 Bn	|  20	|
 
+| Command | Alias-1 | Alias-2 | Description |
+| ------- | ------- | ------- | ----------- |
+| --Password | -P | --password-file | Password for connection to database |
+
 ## Pre-requirements
 
 ```
